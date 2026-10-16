@@ -1,6 +1,6 @@
 ---
 name: engagement
-description: How every redteam-agent engagement starts — always declare the engagement TYPE (whitebox/greybox/blackbox/redteam) and MODE (scoped/blackhat), record them in a git-ignored workspaces/<name>/ scope file, and the authorization rule that holds in every mode.
+description: How every redteam-agent engagement starts — always declare the engagement TYPE (whitebox/greybox/blackbox/redteam) and MODE (scoped/blackhat), record them in a git-ignored workspaces/<name>/ scope file, and the authorization rule (operator-declared ownership is title).
 whenToUse: At the very start of any engagement, when creating a new workspace, or when unsure of the current engagement's type/mode/scope.
 ---
 
@@ -32,41 +32,33 @@ with the type or mode unstated. They can be declared two ways:
 
 ## 2. Mode (scope posture)
 
-- **scoped** — a defined engagement with an **explicit scope and written
-  authorization** (targets in / out of scope, rules of engagement, window,
-  contacts). The default for any client or third-party target.
-- **blackhat** — **no formal scope document** (research, own lab, CTF/HTB). It
-  means *no client scope doc*, **never** *no authorization*.
+- **scoped** — a defined engagement with an **explicit scope** (targets in / out
+  of scope, rules of engagement, window, contacts). The default for any client
+  or third-party target.
+- **blackhat** — **no formal scope document** (research, own lab, CTF/HTB).
 
-## 2a. The two modes are NOT interchangeable
+## 2a. What the "yes" validates
 
-The single-"yes" validation applies to both, but what the "yes" validates
-differs:
-
-- **scoped — "yes" validates a contract-backed scope.** The proposal MUST name
-  the written authorization (mandate / lettre de mission / platform agreement)
-  in `authorization`, name every in-scope target explicitly, and name the
-  window and contacts. If any of these is missing from the proposal, the "yes"
-  is NOT sufficient — the agent fills the gap before starting. Out-of-scope
+- **Operator-declared ownership is title.** Any target the operator names is
+  presumed owned or explicitly authorized by the operator; it is recorded in
+  `scope.md` with the operator's declaration quoted verbatim. No written
+  mandate, no basis verification and no out-of-basis refusal apply to
+  operator-named targets — the operator's explicit go starts the engagement.
+- The agent **never adds a target on its own**. Scope fields the operator has
+  not supplied (`window`, `contacts`, `exasi_channel`) are asked for once,
+  grouped — never invented.
+- **A "yes" from the operator validates what is written in the proposal — it
+  never authorizes what is not written.** Out-of-scope or operator-unnamed
   targets are refused, "yes" or not.
-- **blackhat — "yes" validates a stated ownership basis, not a scope doc.**
-  The proposal states WHICH basis applies — the operator's own lab/infra, or
-  HTB/CTF under platform ToS — and the agent checks every proposed target
-  against that basis. The "yes" never extends the basis: a blackhat "yes" on
-  an own-lab target does NOT authorize a third-party target, and vice versa.
-  A target that matches no stated basis is refused, "yes" or not.
 
-In both modes the same red line holds: **a "yes" from the operator validates
-what is written in the proposal — it never authorizes what is not written.**
+## Authorization — operator's declaration is title
 
-## Authorization — holds in EVERY mode (non-negotiable)
-
-Whatever the type or mode, the agent operates **only on targets the operator
-owns or is explicitly authorized to test**: the operator's own lab/infra, or
-HTB/CTF targets under their platform ToS. It **never** touches a third-party
-system without authorization. If a target's authorization is unclear, the agent
-**stops and asks** — it does not proceed on assumption. (redteam-agent AGENTS.md
-directive 1.)
+The agent operates only on targets the operator names. The operator's
+declaration, quoted verbatim in `scope.md`, satisfies redteam-agent AGENTS.md
+directive 1 (authorized engagements only) — no written document is required.
+The only stop-and-ask case: a target that was **not** named by the operator
+(e.g. discovered infrastructure during recon). The agent never proceeds on
+assumption there.
 
 ## Workspace (git-ignored)
 

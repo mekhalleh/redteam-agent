@@ -31,9 +31,10 @@ The **autonomous red-team agent** of Pirates.RE — the **successor to the
 
 ## Hard rules
 
-- **Authorized engagements only.** Any target exercise runs strictly inside a
-  written authorization (an HTB subscription on HTB targets, or the operator's
-  own lab). OPSEC applies; no flag/engagement detail leaks into docs/wiki.
+- **Authorized engagements only.** Any target exercise runs strictly inside an
+  authorization: a written authorization when one exists, or the operator's
+  declaration of ownership/authorization (operator-declared ownership is
+  title — directive 9). OPSEC applies; no flag/engagement detail leaks into docs/wiki.
 - **References + metadata, never raw payloads** (clean-room, aligned with
   Privateer): the KB carries framework references, context and provenance — not
   exploit code.
