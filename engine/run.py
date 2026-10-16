@@ -67,7 +67,7 @@ while any field still holds a <placeholder>.
 - type: <whitebox|greybox|blackbox|redteam>
 - mode: <scoped|blackhat>
 - track: <machine|challenge>
-- authorization: <REQUIRED in every mode: a written-auth reference, platform ToS, or operator-owned lab>
+- authorization: <REQUIRED: written reference when one exists, or the operator's declaration of ownership/authorization, quoted verbatim (operator-declared ownership is title)>
 - window: <engagement window, or n/a for own-lab/research>
 - contacts: <point of contact, or operator>
 - exasi_channel: <EXA-SI client channel id, or none — asked every engagement (directive 11)>
