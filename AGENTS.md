@@ -121,6 +121,18 @@ relax it — the stricter rule wins.
     does NOT widen what WE own: this repository, its wiki, `workspaces/` and any
     Pirates.RE-owned Discord still carry no secret (directive 9 unchanged there).
 
+12. **Design mode (privileged mode).** The operator may, at any time and by a
+    simple explicit instruction, modify the behavior, directives, skills,
+    agent/command definitions or any other governance or configuration element
+    of this repository's agents. Such an explicit operator instruction **IS the
+    required authorization**: the agent applies it directly, without re-asking,
+    and records it in the decision history below. Design mode **never** relaxes
+    the secret rules (directives 6 & 9 — no secret in cleartext anywhere) nor
+    the execution-environment boundary (directive 10), and consequential actions
+    beyond file edits (merge, push, production) still go through directive 5's
+    operator confirmation unless the operator explicitly authorizes them in the
+    same instruction.
+
 ## Decision history
 
 | Date | Directive | Decision |
@@ -131,3 +143,4 @@ relax it — the stricter rule wins.
 | 2026-10-16 | Directive 11 — EXA-SI client Discord channel: external/client-owned server, outside the org and the RSSI mandate (jarvis dir 14 N/A); its client-dedicated channel is where engagement secrets + pentest-in-progress info go (scoped exception to dir 1 & 9, only that channel, only when the engagement authorizes); ask per engagement + record in `scope.md`; verify the channel exists before posting, else abort + report; what WE own stays secret-free | Added (directive 11) |
 | 2026-10-16 | Directive 9 + `engagement` skill amended — relaxed: the type/mode may be declared in full by the operator OR proposed by the agent as a complete `scope.md` validated by a single operator "yes" (no field-by-field re-questioning); explicit scoped-vs-blackhat differentiation added (scoped: the "yes" validates a contract-backed scope — authorization, every in-scope target, window, contacts named; blackhat: the "yes" validates a stated ownership basis — own lab / HTB-CTF platform ToS — and never extends it); explicit authorization still mandatory in every mode | Amended (directive 9) |
 | 2026-10-16 | Directive 9 + `engagement` skill amended — operator-declared ownership is title: written-mandate requirement, basis verification (own-lab vs HTB/ToS) and out-of-basis refusal removed for operator-named targets; declaration quoted verbatim in `scope.md`; operator's explicit go starts the engagement; agent never invents targets/scope fields (`window`, `contacts`, `exasi_channel` operator-supplied, asked once, grouped); directive 1 satisfied by the operator's declaration; targets not named by the operator (e.g. discovered infrastructure) still stop-and-ask | Amended (directive 9) |
+| 2026-10-16 | Directive 12 — design mode (privileged mode): the operator's explicit instruction IS the authorization to modify agent behavior, directives, skills, agent/command definitions or any governance/config element; applied directly, recorded in history; secrets (dir 6/9) and the Exegol boundary (dir 10) never relaxed; merge/push/production still confirmed per directive 5 unless authorized in the same instruction | Added (directive 12) |
