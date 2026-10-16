@@ -1,0 +1,7 @@
+# .gitleaksignore — redteam-agent (baseline B6).
+# Each entry is a gitleaks finding fingerprint to ignore, and MUST be explained
+# on the line(s) above it (why it is a false positive, never a real secret).
+# Format: <commit>:<path>:<rule-id>:<line>  (or path:rule:line for --no-git).
+#
+# (none yet — this file exists so the baseline check passes and so any future
+#  false positive is documented here rather than silenced in the config.)
