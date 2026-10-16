@@ -2,6 +2,10 @@
 .env
 .env.*
 !template.env
+# Engagements — NEVER committed. Each engagement lives in workspaces/<name>/
+# (scope, loot, recon, notes, flags). Target data and OPSEC stay local only.
+workspaces/
+
 # Claude Code local overrides (per-machine), never committed.
 .claude/settings.local.json
 __pycache__/
