@@ -1,0 +1,7 @@
+{
+  "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+  "records": 182,
+  "schema": "kb-export/1",
+  "sha256": "92928edcb31c5ff64510a0ed1879f45ca3eef4db05b9a8ef464d75d24342577f",
+  "source": "htb-autopwn"
+}
