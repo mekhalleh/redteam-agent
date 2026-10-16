@@ -6,9 +6,21 @@ whenToUse: At the very start of any engagement, when creating a new workspace, o
 
 # Engagement start — type, mode, workspace
 
-**Before any recon or offensive action, ALWAYS ask the operator two things** and
-record them in the engagement's workspace scope file. Never start an engagement
-with the type or mode unstated.
+**Before any recon or offensive action, the type and mode MUST be declared** and
+recorded in the engagement's workspace scope file. Never start an engagement
+with the type or mode unstated. They can be declared two ways:
+
+- **Full declaration** — the operator states type + mode (and ideally the scope
+  fields) directly, in one message. Recorded as-is, no re-questioning.
+- **Proposed-and-validated (single "yes")** — the operator describes the
+  engagement in one breath ("greybox scoped pentest of client X, target Y,
+  window Z"); the agent drafts the **complete `scope.md`** (type, mode, targets
+  in/out, window, contacts, `authorization` ref, `exasi_channel`) and presents
+  it; **a single affirmative answer ("yes" or equivalent) from the operator
+  validates the whole engagement at once**, and the agent starts without
+  re-asking field by field — subject to the mode-specific limits of §2a (what
+  the "yes" validates in `scoped` vs `blackhat`). A non-affirmative answer
+  means the proposal is adjusted, not accepted.
 
 ## 1. Type (how the engagement is run / what the tester knows)
 
@@ -25,6 +37,27 @@ with the type or mode unstated.
   contacts). The default for any client or third-party target.
 - **blackhat** — **no formal scope document** (research, own lab, CTF/HTB). It
   means *no client scope doc*, **never** *no authorization*.
+
+## 2a. The two modes are NOT interchangeable
+
+The single-"yes" validation applies to both, but what the "yes" validates
+differs:
+
+- **scoped — "yes" validates a contract-backed scope.** The proposal MUST name
+  the written authorization (mandate / lettre de mission / platform agreement)
+  in `authorization`, name every in-scope target explicitly, and name the
+  window and contacts. If any of these is missing from the proposal, the "yes"
+  is NOT sufficient — the agent fills the gap before starting. Out-of-scope
+  targets are refused, "yes" or not.
+- **blackhat — "yes" validates a stated ownership basis, not a scope doc.**
+  The proposal states WHICH basis applies — the operator's own lab/infra, or
+  HTB/CTF under platform ToS — and the agent checks every proposed target
+  against that basis. The "yes" never extends the basis: a blackhat "yes" on
+  an own-lab target does NOT authorize a third-party target, and vice versa.
+  A target that matches no stated basis is refused, "yes" or not.
+
+In both modes the same red line holds: **a "yes" from the operator validates
+what is written in the proposal — it never authorizes what is not written.**
 
 ## Authorization — holds in EVERY mode (non-negotiable)
 
