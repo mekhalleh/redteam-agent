@@ -54,7 +54,8 @@ PHASE_CHAINS = {
     ],
 }
 
-SCOPE_FIELDS = ("type", "mode", "track", "authorization", "window", "contacts")
+SCOPE_FIELDS = ("type", "mode", "track", "authorization", "window", "contacts",
+                "exasi_channel")
 
 SCOPE_TEMPLATE = """\
 # Engagement: {name}
@@ -69,6 +70,7 @@ while any field still holds a <placeholder>.
 - authorization: <REQUIRED in every mode: a written-auth reference, platform ToS, or operator-owned lab>
 - window: <engagement window, or n/a for own-lab/research>
 - contacts: <point of contact, or operator>
+- exasi_channel: <EXA-SI client channel id, or none — asked every engagement (directive 11)>
 
 ## Targets in scope
 
@@ -272,6 +274,12 @@ def cmd_plan(name: str) -> int:
     else:
         print("  KB: kb/kb-export.json synced (%d records across %d categories)"
               % (sum(counts.values()), len(counts)))
+    ch = scope.get("exasi_channel", "")
+    if ch and not _is_placeholder(ch) and ch.lower() != "none":
+        print("  EXA-SI client channel: %s — engagement secrets/pentest info go there "
+              "(external, outside RSSI); verify it exists before posting (directive 11)" % ch)
+    else:
+        print("  EXA-SI client channel: none declared (nothing is posted externally)")
     print("  phase chain (human-in-the-loop; NO offensive action in this skeleton):")
     for i, (phase, cats) in enumerate(chain):
         if counts is None:

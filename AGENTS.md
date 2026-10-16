@@ -79,9 +79,40 @@ relax it — the stricter rule wins.
    `engagement` skill. Engagements live in the **git-ignored `workspaces/`** —
    target data, loot and flags stay local, never in a commit/doc/wiki.
 
+10. **Execution environment — Exegol, never the bare host without operator
+    permission.** All engagement tooling (recon, enumeration, exploitation,
+    cracking, any target-side command) runs inside a **per-engagement Exegol
+    container**, exactly as in htb-autopwn — the **bare host is never used to run
+    engagement tooling, nor modified, without the operator's explicit
+    permission**. Access path, in order: the **Exegol MCP** first; if it is
+    unavailable, restart it, and if it still fails, **ask the operator**;
+    **docker** (the `docker`/`exegol` CLI) is the fallback. Installing a tool
+    *inside* the container is pre-authorized environment setup (the container is
+    ephemeral, one per engagement) — a missing tool is installed in-container,
+    never worked around on, or silently run from, the host. The one boundary is
+    the bare host, which stays clean. See the `execution-environment` skill.
+
+11. **EXA-SI client Discord channel — external, outside the org and the RSSI
+    mandate.** The EXA-SI Discord server is a **client / external server that
+    Pirates.RE does not own**, so the RSSI Discord-compliance mandate (jarvis
+    directive 14) does **not** apply to it. On that server there is a
+    **client-dedicated channel** into which the engagement's secrets and all
+    pentest-in-progress information are posted — it is the client deliverable
+    channel, a deliberate **scoped exception to directives 1 & 9** ("never in a
+    channel"), valid **only** for that external client channel and **only** when
+    the engagement authorizes it. The agent **asks at the start of every
+    engagement** whether the EXA-SI channel is used, and records the answer (and
+    the channel) in `workspaces/<name>/scope.md`. **Before posting to the channel
+    it verifies the channel exists; if it does not, it aborts the post and
+    reports it**, never publishing the information anywhere else. This exception
+    does NOT widen what WE own: this repository, its wiki, `workspaces/` and any
+    Pirates.RE-owned Discord still carry no secret (directive 9 unchanged there).
+
 ## Decision history
 
 | Date | Directive | Decision |
 |---|---|---|
 | 2026-10-16 | Repository created as the **autonomous red-team engine, successor to the htb-autopwn autopwn release**: the engine moves here, the intelligence (KB) stays in htb-autopwn and is transferred via the export contract; also shares with the Privateer Stage-10 KB. Authorized-only, human-in-the-loop, clean-room, decoupled/read-only toward the sources; orchestrated by jarvis; baseline onboarding to follow | Added (directives 1–8, scaffold) |
 | 2026-10-16 | Directive 9 — engagement type (whitebox/greybox/blackbox/redteam) + mode (scoped/blackhat), always asked and recorded in a git-ignored `workspaces/<name>/scope.md`; blackhat = no scope doc, never no authorization (authorized targets only in every mode); `engagement` skill + `workspaces/` added | Added (directive 9) |
+| 2026-10-16 | Directive 10 — execution environment: all engagement tooling runs inside a per-engagement Exegol container (Exegol MCP first → restart/ask operator → docker fallback), the bare host is never used/modified without operator permission, in-container install is pre-authorized; mirrors htb-autopwn. `execution-environment` skill added | Added (directive 10) |
+| 2026-10-16 | Directive 11 — EXA-SI client Discord channel: external/client-owned server, outside the org and the RSSI mandate (jarvis dir 14 N/A); its client-dedicated channel is where engagement secrets + pentest-in-progress info go (scoped exception to dir 1 & 9, only that channel, only when the engagement authorizes); ask per engagement + record in `scope.md`; verify the channel exists before posting, else abort + report; what WE own stays secret-free | Added (directive 11) |
