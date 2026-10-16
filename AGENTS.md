@@ -76,6 +76,12 @@ relax it — the stricter rule wins.
    **by the operator in full**, or **proposed by the agent as a complete `scope.md`
    and validated by a single affirmative answer ("yes") from the operator** — no
    field-by-field re-questioning once the operator has validated the proposal.
+   The "yes" validates only what is written: in **scoped** mode the proposal
+   must name the written authorization, every in-scope target, the window and
+   the contacts; in **blackhat** mode it must state the ownership basis (own
+   lab/infra or HTB/CTF platform ToS) and every proposed target is checked
+   against it — a "yes" never extends either basis, and out-of-basis targets
+   are refused, "yes" or not.
    `blackhat` means *no scope doc*, **never** *no authorization*: in every mode
    the agent operates only on targets the operator owns or is explicitly
    authorized to test, and stops to ask when authorization is unclear
@@ -120,4 +126,4 @@ relax it — the stricter rule wins.
 | 2026-10-16 | Directive 9 — engagement type (whitebox/greybox/blackbox/redteam) + mode (scoped/blackhat), always asked and recorded in a git-ignored `workspaces/<name>/scope.md`; blackhat = no scope doc, never no authorization (authorized targets only in every mode); `engagement` skill + `workspaces/` added | Added (directive 9) |
 | 2026-10-16 | Directive 10 — execution environment: all engagement tooling runs inside a per-engagement Exegol container (Exegol MCP first → restart/ask operator → docker fallback), the bare host is never used/modified without operator permission, in-container install is pre-authorized; mirrors htb-autopwn. `execution-environment` skill added | Added (directive 10) |
 | 2026-10-16 | Directive 11 — EXA-SI client Discord channel: external/client-owned server, outside the org and the RSSI mandate (jarvis dir 14 N/A); its client-dedicated channel is where engagement secrets + pentest-in-progress info go (scoped exception to dir 1 & 9, only that channel, only when the engagement authorizes); ask per engagement + record in `scope.md`; verify the channel exists before posting, else abort + report; what WE own stays secret-free | Added (directive 11) |
-| 2026-10-16 | Directive 9 + `engagement` skill amended — assoupli : le type/mode peuvent être déclarés en entier par l'opérateur OU proposés par l'agent en `scope.md` complet validé d'un seul « yes » de l'opérateur (plus de re-questionnement champ par champ) ; l'autorisation explicite reste obligatoire dans tous les modes | Amended (directive 9) |
+| 2026-10-16 | Directive 9 + `engagement` skill amended — relaxed: the type/mode may be declared in full by the operator OR proposed by the agent as a complete `scope.md` validated by a single operator "yes" (no field-by-field re-questioning); explicit scoped-vs-blackhat differentiation added (scoped: the "yes" validates a contract-backed scope — authorization, every in-scope target, window, contacts named; blackhat: the "yes" validates a stated ownership basis — own lab / HTB-CTF platform ToS — and never extends it); explicit authorization still mandatory in every mode | Amended (directive 9) |
