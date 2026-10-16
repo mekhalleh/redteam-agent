@@ -67,8 +67,21 @@ relax it — the stricter rule wins.
 8. **All repository files in English; product docs in the bilingual GitHub wiki
    (FR+EN).** Conversation follows the operator's language.
 
+9. **Every engagement declares its type and mode, and stays authorized.** Before
+   any recon or offensive action the agent ALWAYS asks, and records in the
+   engagement's `workspaces/<name>/scope.md`, the **type** (`whitebox` /
+   `greybox` / `blackbox` / `redteam`) and the **mode** (`scoped` = a defined
+   engagement with explicit scope + written authorization; `blackhat` = no formal
+   scope document — research / own lab / CTF-HTB). `blackhat` means *no scope
+   doc*, **never** *no authorization*: in every mode the agent operates only on
+   targets the operator owns or is explicitly authorized to test, and stops to
+   ask when authorization is unclear (reinforces directive 1). See the
+   `engagement` skill. Engagements live in the **git-ignored `workspaces/`** —
+   target data, loot and flags stay local, never in a commit/doc/wiki.
+
 ## Decision history
 
 | Date | Directive | Decision |
 |---|---|---|
 | 2026-10-16 | Repository created as the **autonomous red-team engine, successor to the htb-autopwn autopwn release**: the engine moves here, the intelligence (KB) stays in htb-autopwn and is transferred via the export contract; also shares with the Privateer Stage-10 KB. Authorized-only, human-in-the-loop, clean-room, decoupled/read-only toward the sources; orchestrated by jarvis; baseline onboarding to follow | Added (directives 1–8, scaffold) |
+| 2026-10-16 | Directive 9 — engagement type (whitebox/greybox/blackbox/redteam) + mode (scoped/blackhat), always asked and recorded in a git-ignored `workspaces/<name>/scope.md`; blackhat = no scope doc, never no authorization (authorized targets only in every mode); `engagement` skill + `workspaces/` added | Added (directive 9) |
