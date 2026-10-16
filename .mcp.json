@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "jarvis-bus": {
+      "command": "python3",
+      "args": ["${HOME}/Projects/jarvis/jarvis-bus/server.py"],
+      "env": { "JARVIS_PEER": "claude" }
+    }
+  }
+}
