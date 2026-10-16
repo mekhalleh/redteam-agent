@@ -1,0 +1,16 @@
+{
+  "id": "sample-linux-privesc",
+  "description": "Sample regression vector (references only, no payload): a Linux path that enumerated an NDMP service during recon and escalated via a GTFOBins sudo binary. It exists to exercise the harness; replace it with real vectors as engagements validate them.",
+  "knowledge_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+  "maturity": "stable",
+  "kb_records": [
+    {
+      "id": "services/10000-network-data-management-protocol-ndmp",
+      "content_sha256": "13ed53a5de99963cbc129b54ba06d8bd451aba642e7b223a033faa4c5eeff0c7"
+    },
+    {
+      "id": "privesc/gtfobins-linux",
+      "content_sha256": "215bb3f6e4c27029c8eab201876c25ea08a2e6837d2324baeee23c18cd3eb656"
+    }
+  ]
+}
