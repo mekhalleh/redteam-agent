@@ -42,13 +42,38 @@ never committed (target data, loot and OPSEC stay local). Suggested layout:
 
 ```
 workspaces/<name>/
-  scope.md         # type, mode, targets in/out, authorization ref, window, contacts, dates
+  scope.md         # type, mode, track, targets in/out, authorization ref,
+                   #   window, contacts, exasi_channel, dates
   recon/           # enumeration output
   loot/            # credentials, artifacts (local only)
   notes/           # working notes, the attack narrative
   flags/           # CTF/HTB flags (local only)
 ```
 
-`scope.md` is created at step 1 with the declared **type** and **mode**; the
-phase agents (recon/web/access/privesc/post-exploit/challenge) read it to stay
-in scope. Nothing here is ever published to the repo, a doc or the wiki.
+`scope.md` is created at step 1 (`engine/run.py init <name>`) with the declared
+**type** and **mode**; the phase agents (recon/web/access/privesc/post-exploit/
+challenge) read it to stay in scope. Nothing here is ever published to the repo,
+a doc or the wiki.
+
+## 3. EXA-SI client channel — ask every engagement (directive 11)
+
+The **EXA-SI Discord server is a client / external server Pirates.RE does not
+own** — the RSSI mandate does not apply to it. It carries a **client-dedicated
+channel** that is the deliverable channel for an engagement: on it, and **only**
+on it, the engagement's secrets and pentest-in-progress information are posted.
+
+- **Ask at the start of every engagement** whether the EXA-SI channel is used,
+  and record it in `scope.md` as `exasi_channel: <channel id>` (or `none`).
+- This is a **scoped exception to directives 1 & 9** — valid **only** for that
+  external client channel, **only** when the engagement authorizes it. Everything
+  WE own (this repo, its wiki, `workspaces/`, any Pirates.RE Discord) still
+  carries no secret.
+- **Before posting to the channel, verify the channel exists.** If it does not,
+  **abort the post and report it** — never publish the information anywhere else.
+
+## Execution environment
+
+All engagement tooling runs inside a per-engagement **Exegol** container (Exegol
+MCP first, docker fallback); the bare host is never used or modified without the
+operator's explicit permission (directive 10). See the `execution-environment`
+skill.
