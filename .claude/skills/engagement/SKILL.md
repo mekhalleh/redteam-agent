@@ -1,6 +1,6 @@
 ---
 name: engagement
-description: How every redteam-agent engagement starts — always declare the engagement TYPE (whitebox/greybox/blackbox/redteam) and MODE (scoped/blackhat), record them in a git-ignored workspaces/<name>/ scope file, and the authorization rule (operator-declared ownership is title).
+description: How every redteam-agent engagement starts — always declare the engagement TYPE (whitebox/greybox/blackbox/redteam) and MODE (scoped/blackhat/hunting/hackback), record them in a git-ignored workspaces/<name>/ scope file, and the authorization rule (operator-declared ownership is title). HUNTING and HACKBACK engagements coordinate with blueteam-agent.
 whenToUse: At the very start of any engagement, when creating a new workspace, or when unsure of the current engagement's type/mode/scope.
 ---
 
@@ -19,7 +19,7 @@ with the type or mode unstated. They can be declared two ways:
   it; **a single affirmative answer ("yes" or equivalent) from the operator
   validates the whole engagement at once**, and the agent starts without
   re-asking field by field — subject to the mode-specific limits of §2a (what
-  the "yes" validates in `scoped` vs `blackhat`). A non-affirmative answer
+  the "yes" validates in each mode). A non-affirmative answer
   means the proposal is adjusted, not accepted.
 
 ## 1. Type (how the engagement is run / what the tester knows)
@@ -36,6 +36,16 @@ with the type or mode unstated. They can be declared two ways:
   of scope, rules of engagement, window, contacts). The default for any client
   or third-party target.
 - **blackhat** — **no formal scope document** (research, own lab, CTF/HTB).
+- **hunting** — detection-driven engagement: adversary emulation run to
+  **validate detections**, purple-team-style exercises. Always coordinated with
+  `blueteam-agent` when detection validation is the objective.
+- **hackback** — active counter-operations against an **identified adversary**:
+  only operator-declared adversary infrastructure, only in this mode. Runs
+  under the **HACKBACK protocol** — coordinated with `blueteam-agent` (the
+  protocol document, `docs/hackback-protocol.md`, lives in the blueteam-agent
+  repo as the shared contract between the two agents, transported over
+  jarvis-bus); **each action is operator-confirmed individually** and the
+  engagement keeps full traceability.
 
 ## 2a. What the "yes" validates
 

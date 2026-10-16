@@ -8,10 +8,12 @@ directives 1 & 9 — do NOT skip the two questions.
 
 1. **Ask the operator two things and wait** (never assume):
    - **type**: whitebox / greybox / blackbox / redteam.
-   - **mode**: scoped (explicit scope) or blackhat (no scope doc — research /
-     own lab / CTF-HTB). Authorization = the operator's declaration of
-     ownership/authorization, quoted verbatim in `scope.md` (operator-declared
-     ownership is title).
+   - **mode**: scoped (explicit scope) / blackhat (no scope doc — research /
+     own lab / CTF-HTB) / hunting (detection-driven, coordinated with
+     blueteam-agent) / hackback (counter-operations vs an identified adversary,
+     HACKBACK protocol, per-action operator confirmation). Authorization = the
+     operator's declaration of ownership/authorization, quoted verbatim in
+     `scope.md` (operator-declared ownership is title).
 2. Scaffold the git-ignored workspace: `engine/run.py init $ARGUMENTS`
    (creates `workspaces/$ARGUMENTS/` + a `scope.md` template + recon/loot/notes/flags).
 3. **Ask whether the EXA-SI client Discord channel is used** (directive 11) and
