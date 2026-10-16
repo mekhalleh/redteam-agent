@@ -1,0 +1,6378 @@
+{
+  "schema": "kb-export/1",
+  "source": "htb-autopwn",
+  "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+  "count": 182,
+  "records": [
+    {
+      "id": "intel/access",
+      "title": {
+        "en": "Write-up intel — Initial access",
+        "fr": ""
+      },
+      "category": "intel",
+      "order": 1,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "777ea062b6f691aa8ec14db332654aa7ecef4fc00e43480415a79820bcc9c83b",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "intel/challenge",
+      "title": {
+        "en": "Write-up intel — Challenges",
+        "fr": ""
+      },
+      "category": "intel",
+      "order": 2,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "5f21ca822e410a34916f98631fd63e3598c1ab0f77bf90fed8130edb0c1f1083",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "intel/post-exploit",
+      "title": {
+        "en": "Write-up intel — Post-exploitation",
+        "fr": ""
+      },
+      "category": "intel",
+      "order": 3,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "7f1771a01ae5352a18443e62b3385bd9e65ce836994f6902b04beeaa7cfd248c",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "intel/privesc",
+      "title": {
+        "en": "Write-up intel — Privilege escalation",
+        "fr": ""
+      },
+      "category": "intel",
+      "order": 4,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "7688c960d15c4ab57b985b76aa95cbaacfe3d0ea908eb8d45225e14477a872a3",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "intel/vuln",
+      "title": {
+        "en": "Write-up intel — Vulnerabilities",
+        "fr": ""
+      },
+      "category": "intel",
+      "order": 5,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "9b7699738a9d2ebfb9860500d6abc8317596c178c2eb5957e8074bfc68764f7c",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "metasploit/auxiliary",
+      "title": {
+        "en": "Metasploit — auxiliary modules (full)",
+        "fr": ""
+      },
+      "category": "metasploit",
+      "order": 6,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "3514aefe9c6d4e6d61476456dbd6b7c72d252eee6ebc1f678c5ef7427e97259c",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "metasploit/local-exploits",
+      "title": {
+        "en": "Metasploit — local exploits (full)",
+        "fr": ""
+      },
+      "category": "metasploit",
+      "order": 7,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "6f4eba2f1a312844b9d8e00a019733bde2cefcac644cfae87c57ccc6b5e26566",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "metasploit/post",
+      "title": {
+        "en": "Metasploit — post modules (full)",
+        "fr": ""
+      },
+      "category": "metasploit",
+      "order": 8,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "41c558b7a2b00d679d215e3877b6173382366581771ae6515a468e74f7f24f7b",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "metasploit/remote-exploits",
+      "title": {
+        "en": "Metasploit — remote exploits (full)",
+        "fr": ""
+      },
+      "category": "metasploit",
+      "order": 9,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "8162a9e62546459417fff76844cd392d50bd7213aac0bad45901335d271ebe78",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "methodology/access-gain-chains",
+      "title": {
+        "en": "Access-gain chains",
+        "fr": ""
+      },
+      "category": "methodology",
+      "order": 10,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "f852e9757e7ab33636324e0939b04929aab3077c5040d5327d144d9afbb16d6f",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "methodology/ad-commands",
+      "title": {
+        "en": "Active Directory commands cheat sheet",
+        "fr": ""
+      },
+      "category": "methodology",
+      "order": 11,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "e00d1af25f9d00aa43fcdebb3a3670fa2fdd21814b6f158476663aa92511b600",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "methodology/ad-pentest-mindmap",
+      "title": {
+        "en": "Active Directory pentest mind-map",
+        "fr": ""
+      },
+      "category": "methodology",
+      "order": 12,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "7f9461388d2d16fa4b9d5593e4863c02801668e918247d620810fb1b07a1a486",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "methodology/decision-guide",
+      "title": {
+        "en": "Methodology decision guide",
+        "fr": ""
+      },
+      "category": "methodology",
+      "order": 13,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "f3847c66f07d43a56ccdf5bd34a8d8283a2e314a73dc2b277e6250b3227432f0",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "methodology/decision-tree",
+      "title": {
+        "en": "Decision tree — when you see X, try Y",
+        "fr": ""
+      },
+      "category": "methodology",
+      "order": 14,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "55fa4cc14ce4c1656b54b3478618be50e51a8ead9c72cd92120286035b9a0f91",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "methodology/recon-by-port",
+      "title": {
+        "en": "Recon commands by port",
+        "fr": ""
+      },
+      "category": "methodology",
+      "order": 15,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "151c283d9fd6d5eb66c4192da35dd358a7f208c5b6bdec381045655a57d5db02",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "playbooks/ad-creds",
+      "title": {
+        "en": "Active Directory with credentials",
+        "fr": ""
+      },
+      "category": "playbooks",
+      "order": 16,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "0a8fcba9a2960cf5efa25e5f0c77decbfe3aa320ff4df420479f16fa2e3c9317",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "playbooks/ad-nocreds",
+      "title": {
+        "en": "Active Directory without credentials",
+        "fr": ""
+      },
+      "category": "playbooks",
+      "order": 17,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "6cccba02c239a8bf0a3ea99eb7e35c849c764ac41bc0f85f736d3e8cff22d266",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "playbooks/dbms",
+      "title": {
+        "en": "Database servers",
+        "fr": ""
+      },
+      "category": "playbooks",
+      "order": 18,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "c244e64207d5299b534cf590462488032611e8cf08f62663ea7cb4083be43313",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "playbooks/lateral",
+      "title": {
+        "en": "Lateral movement",
+        "fr": ""
+      },
+      "category": "playbooks",
+      "order": 19,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "1e9a1d8ba591b9abf45b1dd8968ed8eb45af2613bc1f24a032aaac00487080a6",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "playbooks/linux-privesc",
+      "title": {
+        "en": "Linux privilege escalation",
+        "fr": ""
+      },
+      "category": "playbooks",
+      "order": 20,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "e04bdf6ecf9dd3134507438179a230be1e1c5161a4c3a5367be6ba030cc1ce0f",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "playbooks/recon",
+      "title": {
+        "en": "Recon",
+        "fr": ""
+      },
+      "category": "playbooks",
+      "order": 21,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "66efbf5ade569e1add15a4e0f92b75ba5ee58426d53fdfd745753eca2e4aa60c",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "playbooks/web",
+      "title": {
+        "en": "Web surface",
+        "fr": ""
+      },
+      "category": "playbooks",
+      "order": 22,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "c7b2d0d99cafe7a9aa4a522a8e94e9cc3b5e6edad1125b3cd831fd57c7650bce",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "playbooks/windows-privesc",
+      "title": {
+        "en": "Windows privilege escalation",
+        "fr": ""
+      },
+      "category": "playbooks",
+      "order": 23,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "5f1d68bbff1290c47b77f0e17de5013103dfb9e0816f8e6bbf2b12adb4494f37",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "privesc/gtfobins-linux",
+      "title": {
+        "en": "GTFOBins — Linux privilege-escalation lookup (full)",
+        "fr": ""
+      },
+      "category": "privesc",
+      "order": 24,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "215bb3f6e4c27029c8eab201876c25ea08a2e6837d2324baeee23c18cd3eb656",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "privesc/linux",
+      "title": {
+        "en": "Linux privilege escalation",
+        "fr": ""
+      },
+      "category": "privesc",
+      "order": 26,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "879af41591115d903e98d6642f8b1bde13284d1b5422ca87d606fd37bdf02554",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "privesc/linux-checklist",
+      "title": {
+        "en": "Linux privilege-escalation checklist",
+        "fr": ""
+      },
+      "category": "privesc",
+      "order": 25,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "33ca8181366437b8a6bc2166d66e7e2a357e146ce0b4eb84dc6e912842533b01",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "privesc/lolbas-windows",
+      "title": {
+        "en": "LOLBAS — Windows privilege-escalation lookup (full)",
+        "fr": ""
+      },
+      "category": "privesc",
+      "order": 27,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "4d2e4e0f4f3138cdf22999e896c5c380f4ffa74888b6cb7708d0ed4a16ffd937",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "privesc/windows",
+      "title": {
+        "en": "Windows privilege escalation",
+        "fr": ""
+      },
+      "category": "privesc",
+      "order": 29,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "7a1ec24cffe6961fad1c312592830ffc9854ef4b371bee9a090b1f14472eadbb",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "privesc/windows-checklist",
+      "title": {
+        "en": "Windows privilege-escalation checklist",
+        "fr": ""
+      },
+      "category": "privesc",
+      "order": 28,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "2f1a9d4cee977bc9fb6f2d8dce7c8807712338b9bee52d58b24fcadb17f064a3",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/10000-network-data-management-protocol-ndmp",
+      "title": {
+        "en": "Network Data Management Protocol (NDMP)",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 30,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "13ed53a5de99963cbc129b54ba06d8bd451aba642e7b223a033faa4c5eeff0c7",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/1026-rusersd",
+      "title": {
+        "en": "Rusersd",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 31,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "9c472947652bac12d473bbc314f938addf53bdb8b2381e0770afb5970eba65c2",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/1050-java-rmi-and-rmi-iiop",
+      "title": {
+        "en": "Java RMI and RMI-IIOP",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 32,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "91fd4a6aea4bbfa6ca4b2915e87c0b9a9f8c05fa1b772366eac6a7a763355b1a",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/1080-socks",
+      "title": {
+        "en": "Socks",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 33,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "cc9fd7934048aa835a78d0bb7518dfe2c6d20d90f6ae60f77328fbf507900750",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/110-pop",
+      "title": {
+        "en": "POP",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 34,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "feb48f01ade6fbc03703e6f9677134fb5243e8c81ed3dcd524719589b2973efa",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/111-portmapper",
+      "title": {
+        "en": "Portmapper",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 35,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "f46afba2537bf811be328c84bc946f13244b5f687ba8877fd40cad41bca02f66",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/11211-memcache",
+      "title": {
+        "en": "Memcache",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 36,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "f820fffbc075ae5ff45c492c8056e0a2429d056495c18b769656004fcf71e049",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/113-ident",
+      "title": {
+        "en": "Ident",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 37,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "d749e3af4f6bc7e7d514896e99fc6d64029583332aab4a2d155834c38a75cb9b",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/123-ntp",
+      "title": {
+        "en": "NTP",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 38,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "df6e18b3b9e5275ab4c2109b75a07fecea45f9d7c0ceb4812fb88a5059ca0cac",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/12346-cisco-catalyst-sd-wan-control-plane",
+      "title": {
+        "en": "Cisco Catalyst SD-WAN Control Plane",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 39,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "43ac133b4dbf9fd22f3e5d807e6239b5d8bed4be0e79ba7fe2137e09547003c1",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/135-msrpc",
+      "title": {
+        "en": "MSRPC",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 40,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "715e66e2e04a44a05cbfa8ad9d88b05683641cff2c48e71300e2239d98b694ae",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/137-netbios",
+      "title": {
+        "en": "NetBios",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 41,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "255fa5db48132dec1a37a131ce3eb29dd4f98976dd4799271e324f577fc63753",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/139-smb",
+      "title": {
+        "en": "SMB",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 42,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "549330a919cf9cfc23ce15e9b962d9d8152e77ff46bf70ca1c53a4da76103ea7",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/1414-ibm-mq",
+      "title": {
+        "en": "IBM MQ",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 43,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "7f319d77e2bf57faeae1c257e3c40674a815290e610541b9326203bc9f61f200",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/143-imap",
+      "title": {
+        "en": "IMAP",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 44,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "6de754d10d0cd7b23cb8a16b282c2d8271f47eeb5976f51774715a0d75c5fd2c",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/1433-mssql-microsoft-sql-server",
+      "title": {
+        "en": "MSSQL - Microsoft SQL Server",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 45,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "b2bae77837c8aa9f1714ec1ee283b10ee6d2df2f956829c5c21c58601fe692d2",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/1521-oracle-tns-listener",
+      "title": {
+        "en": "Oracle TNS Listener",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 46,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "bb92c743d0dfa19bfdaeb938fa640eb8757cf2b99e9841e84513e579f771a2d5",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/15672-rabbitmq-management",
+      "title": {
+        "en": "RabbitMQ Management",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 47,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "41b2057010384661438f288654c15dcf69abca6697d40480c70c5462a5477530",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/161-snmp",
+      "title": {
+        "en": "SNMP",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 48,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "f65daa4a51263874b75d4e83ae171a29cfd9401f54efe090957e6c23dd982a16",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/1723-pptp",
+      "title": {
+        "en": "PPTP",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 49,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "a14e3b0f8f7bab422f02399a2927528f6d2f65d3ac915d50a59838fb6f746c07",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/1883-mqtt-mosquitto",
+      "title": {
+        "en": "MQTT (Mosquitto)",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 50,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "34f5590237ca6abe61207675effa1bd326bda6d213afaef510e29297d1f86ea3",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/194-irc",
+      "title": {
+        "en": "IRC",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 51,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "5fe093c8503482b1e12a7020fd3e43615c6da6879362b1f799825a396ebeb934",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/2049-nfs-service",
+      "title": {
+        "en": "NFS Service",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 52,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "c4fe02f64097237f79df046d9057f5e90b41832d5145815ee01b266a209d6eb7",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/21-ftp",
+      "title": {
+        "en": "FTP",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 53,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "171f374e10dd7c97a69248bd6ea070479e818ab9c536bb40134367b45937cce5",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/22-ssh-sftp",
+      "title": {
+        "en": "SSH/SFTP",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 54,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "6fe46576f4c424784374efd2f1a496e8c8a94df405d499d173fd2ef16844ac7c",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/23-telnet",
+      "title": {
+        "en": "Telnet",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 55,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "f0294534b4dcc74fc36110db78dceeb7d650b7bcea6b89eb0c3f72b27096d6ca",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/2375-2375-2376-pentesting-docker",
+      "title": {
+        "en": "2375, 2376 Pentesting Docker",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 56,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "8a217b05de52b12f35f56d0c01f29656aeb4eb91367e00df6c95901348184670",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/24007-glusterfs",
+      "title": {
+        "en": "GlusterFS",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 57,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "6f6af77de6e2c09fffbdec97f6324950b888c803760b3e9867133423d587e914",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/25-smtp",
+      "title": {
+        "en": "SMTP",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 58,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "02b65b242c178d30fb5ed1aeefe2c748f4dfb2267a7ee4641a7a48dd4e51551e",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/264-check-point-firewall",
+      "title": {
+        "en": "Check Point Firewall",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 59,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "36a16379bda116c16864cc49bfd17387d5b854cf1f3a0fabc50a90195d777106",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/27017-mongodb",
+      "title": {
+        "en": "MongoDB",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 60,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "5f18b683bb430741fb43c36f23a1bf0f1a55d083f2ba9ff7f9f1a1069abe91bb",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/3128-squid",
+      "title": {
+        "en": "Squid",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 61,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "87c21e85bda8ec927e9a6a174cbf57c873d86bb57c042ba5f2e0becfbfc00c3b",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/3260-iscsi",
+      "title": {
+        "en": "iSCSI",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 62,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "e6ae05417738c2ce91a173bfd19dcfa8a97843323c117583acc4859d2467e066",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/3306-mysql",
+      "title": {
+        "en": "MySQL",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 63,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "219eda9d304631c4f435b3ec8d27a3fc6524c8aad5252475f92c93d75ebbff17",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/3389-rdp",
+      "title": {
+        "en": "RDP",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 64,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "63f2572f36af50ac4950afd4e229e914835beed8562d47a477278ebb9918e131",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/3632-distcc",
+      "title": {
+        "en": "Distcc",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 65,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "c12de00a47d63be6d68e0178b476f8834416121cc9274371ef3c9de7d3235260",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/3690-subversion-svn-server",
+      "title": {
+        "en": "Subversion (SVN) Server",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 66,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "682587139f7f8c7a4bc15ddefee9f4c280db35b98549ceca9ac24063efc01f9d",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/3702-ws-discovery",
+      "title": {
+        "en": "WS-Discovery",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 67,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "249acb08584e8e185a5045abb1b7c7e2190d8f543a1cd99e8580bbbce01fabd1",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/389-ldap",
+      "title": {
+        "en": "LDAP",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 68,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "5aa73fa59db295fd496a5434d6faa30543893c74d6fc5f6507a2befdd9e5e2be",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/4222-nats-jetstream",
+      "title": {
+        "en": "NATS / JetStream",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 69,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "630627adf30d2c9e13572d757ba3675e03f32de3c295ef8e89a0009da11334ed",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/43-whois",
+      "title": {
+        "en": "WHOIS",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 70,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "d1848f06daae0569df7801da8e038cf891dbf8ef7ce6360043673802a1124de2",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/4369-4369-pentesting-erlang-port-mapper-daemon-epmd",
+      "title": {
+        "en": "4369 Pentesting Erlang Port Mapper Daemon (epmd)",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 71,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "3dc88cbaf81e8ca765ece668a31bcbc3734abbf3ff62adaa33c090273f6f2272",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/44134-44134-tiller-helm",
+      "title": {
+        "en": "44134 Tiller / Helm",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 72,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "03b3018cf2bee70831927a5585e3d64223a5959446a07a0a24166f1f5a3712f1",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/44818-44818-pentesting-ethernet-ip",
+      "title": {
+        "en": "44818 Pentesting EtherNet/IP",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 73,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "8a8a217a5a709eef3e624ff1833fd1aa278d6a29694090c2554a6d9aeadd0e63",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/47808-bacnet",
+      "title": {
+        "en": "BACnet",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 74,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "6f7aa0da1f592c1adda3307fac840571cd788ef2ca00bf1d8a6e4ded6e91f899",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/4786-cisco-smart-install",
+      "title": {
+        "en": "Cisco Smart Install",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 75,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "8243312ee9cca4144d73baa3de9b20318875e393719eb4577669ad0f371fcd18",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/4840-opc-ua",
+      "title": {
+        "en": "OPC UA",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 76,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "3bd0573fc08346fbb2c9c86a104d82f613d53fad8436949d5ff6d71b2f52748d",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/49-tacacs",
+      "title": {
+        "en": "TACACS+",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 77,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "156751988a4bdc2e0390b374b66b2c205b3f1ac9ac3df7ea875d6b1f628aa007",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/500-ipsec-ike-vpn",
+      "title": {
+        "en": "IPsec/IKE VPN",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 78,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "f2b54b20fa1cadde1517544b2f013d78ffde183293a4bb6de133f02d2e3dbff2",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/5000-docker-registry",
+      "title": {
+        "en": "Docker Registry",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 79,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "a6a263619248896610985aa97815ac0cb8558f33f611f6a5f4c44a84a304f912",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/502-modbus-protocol",
+      "title": {
+        "en": "Modbus Protocol",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 80,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "132766ddefd6b7e9cce0371aff0b02171e4d70cc74b1f4d4769db2a922c30187",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/512-rexec",
+      "title": {
+        "en": "Rexec",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 81,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "e07839e91182c2606d5abe9f09b5e8e8d04229b77127875161a711bb8250771d",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/513-rlogin",
+      "title": {
+        "en": "Rlogin",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 82,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "3072ef9a0c930cf7fc6e6d05ae693b3ee03ada1e6334c24c63b14e36d6c2a650",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/514-rsh",
+      "title": {
+        "en": "Rsh",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 83,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "dc8fbf6455b16fea8a9d4c544608cf62f86862a1d70d7c5bd13483bf0bb85208",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/53-dns",
+      "title": {
+        "en": "DNS",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 84,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "acb0f5cbf0e874330865fe41216c33c9ebb3c3b95a74b75cb3f8bdeb4c669728",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/5353-5353-udp-multicast-dns-mdns-and-dns-sd",
+      "title": {
+        "en": "5353/UDP Multicast DNS (mDNS) and DNS-SD",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 85,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "4d76a7d99736d51465a0fceaa9799b56b51fd61b180ca04dceecd2acabe6d394",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/5432-postgresql",
+      "title": {
+        "en": "PostgreSQL",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 86,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "a0a072de5279bf4ff71bfb8ef6cf7f17b4999e6cc33053945294fa70972f3a53",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/5439-redshift",
+      "title": {
+        "en": "Redshift",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 87,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "6a9df40187f3770eda9ed0b0f3e236bb731001667dd7d943fd3d5bcc27cdaf99",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/548-apple-filing-protocol-afp",
+      "title": {
+        "en": "Apple Filing Protocol (AFP)",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 88,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "67244daff5e14179b4fd691483069d47f4f0107efe2c121f60113f4093b38fd5",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/554-rtsp",
+      "title": {
+        "en": "RTSP",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 89,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "665657955430b7f01de14e4f0da064e0a5db84e7d759a8e90b961d02df926584",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/5555-android-debug-bridge",
+      "title": {
+        "en": "Android Debug Bridge",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 90,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "af5f8b8c1259d14e13432f233387f2cc2fc628dfd887c5d95005c4db5b59ebd8",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/5671-amqp",
+      "title": {
+        "en": "AMQP",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 91,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "407787e4015a37b3936f497019c8364f27ddcb9145256e139d338d6fa9cc83bd",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/5800-vnc",
+      "title": {
+        "en": "VNC",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 92,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "ae4b0269a6266756c617fb4655f7dea79aa1e8119102997325798ab86c3c8c17",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/5984-couchdb",
+      "title": {
+        "en": "CouchDB",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 93,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "9e49e879b7c6703a4a6157d85bd4d9c4fe91e73b69538c77e62a79ef4269da29",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/5985-winrm",
+      "title": {
+        "en": "WinRM",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 94,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "2be2cef01414bf6f1ab75a660b458ea92f51c5f834294e2556628187a10b8585",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/6000-x11",
+      "title": {
+        "en": "X11",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 95,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "3ec237109f1599fd7bc2f2d43c3d82d75ec3faad9e3c53339f525444187a14d3",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/623-ipmi",
+      "title": {
+        "en": "IPMI",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 96,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "f0aae72d427e852e64fbab97d4697c28d4363010b8c19178d0def90f9e71d2df",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/6379-redis",
+      "title": {
+        "en": "Redis",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 97,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "a61a21a9cb483423d71ef1ca49d9102d29704cd8b25a6f13f058ec49917e8f7d",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/69-udp-tftp",
+      "title": {
+        "en": "UDP TFTP",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 98,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "a7cb878ff45f8e06d38c8e3544ade1a560becef87145183ae2804074684116f3",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/7-echo-service",
+      "title": {
+        "en": "Echo Service",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 99,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "772a36cb2dc64174591ff18f2dcac4efb01a64bb781fa032085d74e9d6a06509",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/700-epp",
+      "title": {
+        "en": "EPP",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 100,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "33d9a6623d4573249a263a359fcd75c3a7cb6c2780abccaeb6647d72fb9ec056",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/79-finger",
+      "title": {
+        "en": "Finger",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 101,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "3af011720dcb065db063db2ddb813e66e053e503a1ba1ff7351becead699151d",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/80-web-methodology",
+      "title": {
+        "en": "Web Methodology",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 102,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "d921a1397fc7aa96a87499bb7b625e37945044836dca845869d6c6ae496f0e06",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/8009-apache-jserv-protocol-ajp",
+      "title": {
+        "en": "Apache JServ Protocol (AJP)",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 103,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "656c3a90bfda9193f000604ed60bcf7d6842965b0da4cd50e3342f256c7daa07",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/8086-influxdb",
+      "title": {
+        "en": "InfluxDB",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 104,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "f4ce89a9038c93d969a3e5da4e4da361e12fa17d4a60d4ac507fb2e7d7d8f402",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/8333-bitcoin",
+      "title": {
+        "en": "Bitcoin",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 105,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "5028f4a1ebb21e12d79c8c0ab039dff70ee1e23553b948a1bc17cec92e17b48a",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/873-rsync",
+      "title": {
+        "en": "Rsync",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 106,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "3181a1c24979ee52cee9b35e718502a56cec4297dde253774ccec6b87caa3ecb",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/88-kerberos",
+      "title": {
+        "en": "Kerberos",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 107,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "2864431d74214216e8290920c162f840c393c4e44114ea853792d4c7f3fbe0c1",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/9001-hsqldb",
+      "title": {
+        "en": "HSQLDB",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 108,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "f4696ef79463b4d48ff5c68c5242122b7213ac4fb8d014db42bfaebead076c52",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/9042-cassandra",
+      "title": {
+        "en": "Cassandra",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 109,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "6770d3231e05abf59bca11e97f2c476b6b4f82fd687c93586a04ca6a8f688eeb",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/9100-pjl-printer-job-language",
+      "title": {
+        "en": "PJL (Printer Job Language)",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 110,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "b62e1989d407c2b76043757d708f91dc4b483362621194490a242ceeb7e2481a",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "services/9200-elasticsearch",
+      "title": {
+        "en": "Elasticsearch",
+        "fr": ""
+      },
+      "category": "services",
+      "order": 111,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "82f0a70133454ec51013d6cb30ead9ad81121f9819227d5f69bcbab9bf105c87",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/acd-lattice-shared-multiplicative-anchor",
+      "title": {
+        "en": "Orthogonal-lattice recovery of a shared \"anchor\" from c = anchor*d + small_noise",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 112,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "25fd7d73c1b51bf71c75d7c4b59fd30c66512d977067efe26f6e6c07aedfe51f",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/adcs-esc7-certificate-template",
+      "title": {
+        "en": "AD CS certificate-template abuse — template-write rights → craft an ESC1 template → Administrator cert",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 113,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "378e1c1dbe79e685d3418660eba624dfe5ac1f275bde7d4232d8c1cffb5a0f24",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/adcs-template-edit-esc1",
+      "title": {
+        "en": "AD CS template-editing rights → self-made ESC1 template → Administrator cert",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 114,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "f0255103138d0045c41b41db67c95743f5ebf8b8094d1102d67e507e74b09205",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/affine-mod256-modular-inverse",
+      "title": {
+        "en": "Affine byte cipher over Z/256 — reverse with the modular inverse",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 115,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "98921c045778cfce09620c8a27d2caabc498cedd9e7ad11b315ffb86a9089f78",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/binary-gcd-parity-trace-nonce-leak",
+      "title": {
+        "en": "Binary-GCD parity trace leaks a blinded operand exactly (single-trace)",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 116,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "db1e04a389160cbd58bcc00139c7cb217125415d2a1f4528b11907c59d7a619a",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/blind-rce-verify-via-listener-side-channel",
+      "title": {
+        "en": "Blind RCE: trust the listener's own log, not the exploited endpoint's HTTP response",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 117,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "783d2865dafd9e011459695f89cefa882cdd9f3399c2a1faa54b00e68fb077b8",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/cbc-padding-oracle-session-key-reuse",
+      "title": {
+        "en": "CBC padding oracle via session key/IV reuse + a fixed plaintext prefix",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 118,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "112fb6caa5311c5335bc29311da63a341e39d4b3dffcf3a32599456b73e92000",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/certipy-ldap-shell-auth",
+      "title": {
+        "en": "Certipy LDAP-Shell — authenticate a cert over Schannel (LDAPS), bypassing Kerberos clock-skew",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 119,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "93cdd47a0d4ca7a6b28b8743d835f2d1cdc51948949b661981c8e57c82edb98e",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/clickhouse-file-write-formatter-rce",
+      "title": {
+        "en": "ClickHouse `file()` write of a script a privileged scheduler executes → root RCE",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 120,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "ff69320e3fce7342754ac5edcb73650ac36e8147a52943d022552845b4aa1fa9",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/craft-authenticated-behavior-rce",
+      "title": {
+        "en": "Craft CMS authenticated behavior-injection RCE foothold",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 121,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "73dbc6d68fd54a3250c272f84c7d1d1b3286656bd560d8c4625875a3a3ee8024",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/craft-env-db-encrypted-secrets",
+      "title": {
+        "en": "Craft `.env` + DB encrypted secrets recovery",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 122,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "e8e9959aec70ae3e96adace836f45912207652fc607e996d56577c57b167ac9c",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/csrf-text-plain-form-json-body",
+      "title": {
+        "en": "CSRF via `text/plain` form submission with JSON body",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 123,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "cdfa256c1a834ce748b4933ce1c81baf7d51532edb19ad69d8b398f617a27a3f",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/cups-local-token-file-write",
+      "title": {
+        "en": "CUPS Local token leak → root file write sudoers",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 124,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "0e39e904fe95bf6ba6e72794f1b682746df1488b16541a6d813387485f64b7f9",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/cve-2025-32463-sudo-chroot",
+      "title": {
+        "en": "CVE-2025-32463 — sudo `--chroot`/`-R` local root (sudo 1.9.14–1.9.17)",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 125,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "c20b3fa72bc26591616aa4b6efb4a74a8e5b1f126b7d04c2489bf01fa5192e46",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/des-password-decryption",
+      "title": {
+        "en": "DES/3DES config-password decryption — hardcoded key/IV in a .NET app (SmarterMail et al.)",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 126,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "39e04acce891e98e9c1b193a7f764340ba42a7f26e0b9511aec8ed22539b41e1",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/ec-exponent-oracle-multiplicative-ph",
+      "title": {
+        "en": "EC exponent oracle -> multiplicative Pohlig-Hellman in (Z/r)*",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 127,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "bbf7a73439607d5915ecbdd6a508347853b9fc3c45d7c731f555c363887359b5",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/freepbx-firmware-upload-rce-chain",
+      "title": {
+        "en": "FreePBX pre-auth SQLi → self-made admin → firmware-upload RCE foothold chain",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 128,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "1bc1ef3a661ac24c572da32232a9256929e321e87b0815c80751ae6fd909788b",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/gf-matrix-cipher-basis-query-recovery",
+      "title": {
+        "en": "Full linear-cipher recovery via chosen-plaintext basis queries",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 129,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "677c9d7ec0acf299ea209b75757b2b6ef82755bf9a91711fc4e50c2be423644a",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/glpi-ldap-config-decrypt",
+      "title": {
+        "en": "GLPI LDAP config password: extract and decrypt on-host",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 130,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "e93df13788051851cb5ddb26b687ef49b2f1ca1640a0fe35a8e2a8b63ec4d1e6",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/gpp-cpassword-sysvol",
+      "title": {
+        "en": "GPP cpassword in SYSVOL/Replication (MS14-025)",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 131,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "54303eb4ac5fa675a8ac4e5cb7b29c0cd9f0c97f13de73b513db3e56a6df0620",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/guest-smb-share-creds",
+      "title": {
+        "en": "Guest/null SMB readable share → credential leak → domain access",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 132,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "9879bf7efbea60683c4a421dc379d19e0db303c4707bfbdc1a10f3134eb02379",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/held-package-version-mismatch",
+      "title": {
+        "en": "Held / pinned package lagging its own libraries — a privesc signpost",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 133,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "311822e9625696d1415dba82d132271a23f3990c979c08121b1b052b8f6e454b",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/incron-sysadmin-hook-signature-bypass",
+      "title": {
+        "en": "FreePBX `sysadmin_manager` hook signature bypass via incron (root)",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 134,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "becf524d7d504630f40aba6e270d8805c453ff72e304291864d2437d6093f169",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/invertible-public-matrix-cipher",
+      "title": {
+        "en": "Invertible public-matrix cipher — \"lattice\" dressing with no hardness",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 135,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "c4daac746d8a0e6aff82ed4badd5c8f5e8f173448bef296b103a4f078114251f",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/invertible-xor-mix-crt-shared-factor",
+      "title": {
+        "en": "Invertible XOR-swap key mix + generalized CRT over shared-factor moduli",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 136,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "baa13e3748d80f76c85a0c45898ca71a0cd6bae1079127acce012c1863f4c52d",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/ipv4-mapped-ipv6-bracket-ssrf-filter-bypass",
+      "title": {
+        "en": "IPv4-mapped IPv6 bracket literal bypasses PHP SSRF private-range filters while curl still hits loopback",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 137,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "a37091d70b9f7be18c7caed96c67973b57e32b927bbe9e4774168bbbcfa9fc50",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/json-key-casing-parser-differential",
+      "title": {
+        "en": "JSON key-casing parser differential across a frontend/backend hop",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 138,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "e45ff43bbbb20a2ae25fdf46c69f1e10afc6173ba172beac8df92eb8a5750810",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/jumpbox-only-internal-ssh",
+      "title": {
+        "en": "Jumpbox-only internal SSH pivot",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 139,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "c28f9397b0e6c9749bbb17fb87d315317e4e0ec4915482bab7efc5da4ec2d236",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/kafka-sasl-jaas-password-reuse",
+      "title": {
+        "en": "Kafka SASL PLAIN JAAS cleartext password → OS login reuse",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 140,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "1d7200a4dde75752bf182ad4141ead8e4e4116813548a52edcce6e6e96ac3dc0",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/kiosk-escape-native-error-dialog-to-browser-file-dialog",
+      "title": {
+        "en": "Kiosk escape: provoke a native error dialog whose hyperlink opens a browser, then run cmd from its file-dialog address bar",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 141,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "fc06737dd4cbd8e3f0ebca9b2a6d6126cd859ab90cc0142a33fca8b5629ecdf4",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/loopback-firewalled-per-uid",
+      "title": {
+        "en": "Loopback services may be firewalled per UID",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 142,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "ccdb2df210645aa115fbb66d94dc5af013b14102f8dac91fe3aa06d346315926",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/lpd-protocol-command-injection",
+      "title": {
+        "en": "Custom LPD/print-protocol command injection via unsanitised job name",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 143,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "3ff9bd027f8f3aff10da1f8f30a50e34230cf0924f069a198556828e5ae14604",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/mongoose-rename-prototype-pollution-socket-gadget",
+      "title": {
+        "en": "Mongoose $rename prototype pollution → Node internal socket gadget to fake remoteAddress",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 144,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "7c3888ca9fbcb56ed0911bf5d986dbfd9fada063feefa6282a1046233764e415",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/mremoteng-confcons-credentials",
+      "title": {
+        "en": "Loot mRemoteNG stored passwords (confCons.xml)",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 145,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "b52826e5499ef2224072d5133f486ad866f49af2817ca1a43ea47f0b032c6d2a",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/multiplicative-blind-factor-recovery-cost",
+      "title": {
+        "en": "Recovering k from a multiplicative blind b = mask*k — the real ECM cost model",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 146,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "1caf83ff409b97356a558e694eb82f92ea973c0a4e9c68e9ab18899926467e0c",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/mysql-udf-rce-localsystem-writable-plugin-dir",
+      "title": {
+        "en": "MySQL UDF RCE to SYSTEM: mysqld as LocalSystem + Authenticated-Users-writable plugin_dir",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 147,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "093c5640a4394494a54e13e5e7ecb39e2baac48200695f83594c76b920fc1db4",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/nc-fifo-reverse-shell-pattern",
+      "title": {
+        "en": "Reliable manual reverse-shell relay via Ncat + named pipe (no `socat`/`tmux` available)",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 148,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "5437f1dcac62272fa19811575f10b3ec42ce7db2ef2135251724d43ddc0f39aa",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/nfs-onboarding-shares",
+      "title": {
+        "en": "NFS world-readable \"onboarding\" shares",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 149,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "cf55515e7a320eea6b717720235e6d7f805bb9d5d8edfaf475904bf50aead79a",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/olivetin-startaction-arg-injection",
+      "title": {
+        "en": "OliveTin StartAction argument injection (CVE-2026-27626)",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 150,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "ea3752c2b7a42e2fc269d066155d96ee02668d9b143cc6122a534b0a56ac8d1f",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/onboarding-docs-credential-reuse",
+      "title": {
+        "en": "Onboarding documents → credential reuse chain",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 151,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "13e33ea5148c5ce0a899071192fa07d533b1f621f3cfc41d512cdf7ff2f651cb",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/openam-jato-clientsession-deserialization",
+      "title": {
+        "en": "Java deserialization via `jato.clientSession` on OpenAM reset endpoints",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 152,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "2910d3d0db388036e24afc4a48edda2e89387c691421a7dc54621a4abfe53012",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/packagekit-toctou-race",
+      "title": {
+        "en": "PackageKit TOCTOU race (CVE-2026-41651, \"Pack2TheRoot\")",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 153,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "87c29fe7df64fc2102de30cbf48324d9ee8f9c7b43505a32dc7f257dd5d9d09b",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/pass-the-hash",
+      "title": {
+        "en": "Pass-the-Hash — authenticate with an NT hash, no plaintext needed",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 154,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "98cd3bd31f9fcb8f496bced25cc27f53fd81fa29e849a74240cafb5218a5cab3",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/payload-urls-must-use-target-internal-origin",
+      "title": {
+        "en": "URLs embedded in a payload must use the TARGET's internal origin, not your mapped one",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 155,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "d6c551db81424ead181a8ddcf9dfb908a6b492b93395c65b386be6a8a8c17a38",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/privatetmp-blind-observable",
+      "title": {
+        "en": "A web shell's `/tmp` is not the system `/tmp` (systemd `PrivateTmp`)",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 156,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "076bad4a5817762e6681a257b93b91bb3dc3c28483802598f355ba38ca1a7507",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/pty-noninteractive-driving",
+      "title": {
+        "en": "Driving a remote PTY non-interactively (WebSocket / fifo / one-shot exec)",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 157,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "57bc502d9013c57ae079e94707ebeaf3528484589c4e18367c145e097cc63e51",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/puppeteer-shared-browser-concurrency-self-dos",
+      "title": {
+        "en": "Flooding a shared Puppeteer browser instance starves its other callers",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 158,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "c4593d9504acb219eb59c5b6136a5026a35662f5bd878728d7e0f157283bf26c",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/python-str-format-secret-leak-via-globals",
+      "title": {
+        "en": "Python str.format() on attacker data leaks secrets via {obj.__globals__[...]}",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 159,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "82f558cb5b1fb6cdb72580d108ab1de1b2b917985ce9df11400848c76b02dda5",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/query-array-type-confusion-filter-ownership-bypass",
+      "title": {
+        "en": "Query-param array type confusion: bypasses both ownership checks and substring blacklists",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 160,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "bb7ba1fd71d36fe7432174eaf22a76959a217e6a88efd85f1d1de95956d7ff60",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/rbcd-resource-based-delegation",
+      "title": {
+        "en": "Resource-Based Constrained Delegation (RBCD) — write the target's `msDS-AllowedToActOnBehalfOfOtherIdentity`",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 161,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "8920f417ae831b98cfcce6bc6dd754e60ab90f5b0b412e515f494d3f2617b710",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/rdiff-backup-restrict-path-bypass",
+      "title": {
+        "en": "rdiff-backup sudo `--restrict-path` bypass",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 162,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "f8eb3673dc206d654576f9947f1e6b5efcfd091208c44a6268d2e26950174f75",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/rdp-wifi-sniff-internal-portal",
+      "title": {
+        "en": "RDP jumpbox → WiFi sniff → internal portal access",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 163,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "a8d1e5b0ee59927836decb29d1583ca799148393c1fdd7da5266856da78c96d9",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/roundcube-des-password-decrypt",
+      "title": {
+        "en": "Roundcube stored IMAP password → 3DES-decrypt with the config des_key",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 164,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "06f9576765a6143715332c7b01fc6375549cbe7a7134abf3617e3687a1b6d6b9",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/rsa-multiplicative-meet-in-the-middle",
+      "title": {
+        "en": "RSA multiplicative meet-in-the-middle for a product-structured plaintext",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 165,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "26846dd4ddb8023b9f76416d6084735a7887f0224263f353a223023f98ce1968",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/rsa-perfect-square-totient-shared-factor",
+      "title": {
+        "en": "RSA with a perfect-square totient from a shared-factor prime construction",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 166,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "381100a8f95a77d9147e65147775d36108c5faf1150af6144699ab3fe5e94e1d",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/rsa-shared-prime-gcd",
+      "title": {
+        "en": "RSA shared-prime GCD — factor two moduli, and un-blind a hidden modulus",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 167,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "eb18010433ea743df26afa36e9aa9d8716c324d4978ca2bb44bf8d65a8b905ba",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/scm-rights-fd-leak",
+      "title": {
+        "en": "SCM_RIGHTS Unix-socket file-descriptor leak → root-only file read",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 168,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "b6b57e6a232b218db4a54d314866b9c4ec03efdc22c982849b9a5f90eb54afc6",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/sebackupprivilege-file-read",
+      "title": {
+        "en": "SeBackupPrivilege — read any file / dump the hive database as a backup operator",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 169,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "7e0a090778e5d16763c8d05a15266c236c06b03c4fe88cd4844a4b6685495a49",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/secret-from-proc-argv-race",
+      "title": {
+        "en": "Capture a secret from a privileged process's argv via a `/proc` race",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 170,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "288e65530bdcb4f218192a0c60a40c4f457d122f8e42d38d882bdd8507275f88",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/spring-actuator-heapdump-creds",
+      "title": {
+        "en": "Spring Boot `/actuator/heapdump` (unauth) → datasource credentials",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 171,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "867e47f028da23df049b0114b7abf7b22762168590d4939353d2b23ebbf63073",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/sso-config-cred-backends",
+      "title": {
+        "en": "SSO/service app config points at credential backends",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 172,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "d5c25ba1237e694447e0ba4671620e6400f3a92976a46df033fa63022745b164",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/ssrf-decoy-no-egress-and-single-thread-self-dos",
+      "title": {
+        "en": "SSRF decoy needs a reachable target; beware self-referential probes against single-threaded dev servers",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 173,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "54e2b41e0c4c01d37d70f2dd6632ec5b12c592df43e67d7ae95160e864760b93",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/ssrf-ipv4-shorthand-bypass",
+      "title": {
+        "en": "SSRF filter bypass via IPv4 shorthand / alternate notations",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 174,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "6c48e61324da98475ed2348095145f405204b4f48fc4fef136d5be922093e9da",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/stream-cipher-nonce-reuse-known-plaintext",
+      "title": {
+        "en": "Stream-cipher nonce reuse — recover a second message from a known plaintext",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 175,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "0f509cb0d5d47d573942ab60946f6aa278639051130e54d5badc902ff34bc4c3",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/symfony-fragment-secret-rce",
+      "title": {
+        "en": "Symfony `_fragment` RCE via a known/guessable APP_SECRET",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 176,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "b1ab4e8cb249269f17e0b6f462909cc56eb679a8aeaf1673bb9882130dc10254",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/timeroasting-ntp-ms-sntp",
+      "title": {
+        "en": "Timeroasting — crack computer-account hashes from MS-SNTP (NTP) authenticators",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 177,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "5b2227b56a0f42f9f9d7d24c2b3eb8bf5dae32ba5c66ba22e935b99093ba4633",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/tmux-root-socket-hijack",
+      "title": {
+        "en": "Hijack a root-owned tmux (or screen) socket",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 178,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "cbcce3b224974c88a7394054ba85881442b3f4ee435b036a4f78b6f522fc904a",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/web-app-config-db-hashes-crack",
+      "title": {
+        "en": "Web app config → DB user hashes → crack → shell user",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 179,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "98bb44d701842f45b5b4715b27ced5833dc372eb884e1831c9c84a24afb7df8b",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "techniques/writable-path-dir-runparts-motd",
+      "title": {
+        "en": "Writable PATH dir → root via MOTD run-parts (PATH hijack)",
+        "fr": ""
+      },
+      "category": "techniques",
+      "order": 180,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "c6f4cc86fb541eb0fda4ae31a2e6ac5986335bfec9c4f457faac66de34d5f911",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "vulns/cve",
+      "title": {
+        "en": "CVEs — vulnerability catalogue",
+        "fr": ""
+      },
+      "category": "vulns",
+      "order": 181,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "b7e4cf5222f2bffd1cf5d95f2cdf9172565579e6442e7bad355f10ec8afbb063",
+        "updated": "2026-10-12"
+      }
+    },
+    {
+      "id": "web/owasp",
+      "title": {
+        "en": "Web — order of battle",
+        "fr": ""
+      },
+      "category": "web",
+      "order": 182,
+      "frameworks": {
+        "attack": [],
+        "wstg": [],
+        "masvs": [],
+        "ptes": [],
+        "cwe": [],
+        "capec": []
+      },
+      "context_tags": {
+        "os": [],
+        "service": [],
+        "tech": []
+      },
+      "preconditions": "",
+      "observable_signals": "",
+      "remediation": "",
+      "references": [],
+      "maturity": "stable",
+      "confidence": "",
+      "relationships": [],
+      "provenance": {
+        "source": "htb-autopwn",
+        "handbook_version": "fb245727e3381bf47cbc1b317e80077fad7a7dc948bd94904ee8547edda3f5f2",
+        "content_sha256": "e0f5fb022b6f1b2e53e6d5fa43ff22e0863db607868a8f6d8d1cb5eb9c06b108",
+        "updated": "2026-10-12"
+      }
+    }
+  ]
+}
