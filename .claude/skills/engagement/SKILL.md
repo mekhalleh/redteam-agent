@@ -6,9 +6,20 @@ whenToUse: At the very start of any engagement, when creating a new workspace, o
 
 # Engagement start — type, mode, workspace
 
-**Before any recon or offensive action, ALWAYS ask the operator two things** and
-record them in the engagement's workspace scope file. Never start an engagement
-with the type or mode unstated.
+**Before any recon or offensive action, the type and mode MUST be declared** and
+recorded in the engagement's workspace scope file. Never start an engagement
+with the type or mode unstated. They can be declared two ways:
+
+- **Full declaration** — the operator states type + mode (and ideally the scope
+  fields) directly, in one message. Recorded as-is, no re-questioning.
+- **Proposed-and-validated (single "yes")** — the operator describes the
+  engagement in one breath ("greybox scoped pentest of client X, target Y,
+  window Z"); the agent drafts the **complete `scope.md`** (type, mode, targets
+  in/out, window, contacts, `authorization` ref, `exasi_channel`) and presents
+  it; **a single affirmative answer ("yes" or equivalent) from the operator
+  validates the whole engagement at once**, and the agent starts without
+  re-asking field by field. A non-affirmative answer means the proposal is
+  adjusted, not accepted.
 
 ## 1. Type (how the engagement is run / what the tester knows)
 
