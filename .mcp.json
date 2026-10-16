@@ -2,13 +2,19 @@
   "mcpServers": {
     "jarvis-bus": {
       "command": "python3",
-      "args": ["${HOME}/Projects/jarvis/jarvis-bus/server.py"],
-      "env": { "JARVIS_PEER": "claude" }
+      "args": [
+        "/home/mekhalleh/Projects/jarvis/sources/jarvis-bus/server.py"
+      ],
+      "env": {
+        "JARVIS_PEER": "claude"
+      }
     },
     "exegol-mcp": {
       "type": "http",
       "url": "${EXEGOL_MCP_URL:-http://127.0.0.1:2187/mcp}",
-      "headers": { "Authorization": "Bearer ${EXEGOL_MCP_TOKEN}" }
+      "headers": {
+        "Authorization": "Bearer ${EXEGOL_MCP_TOKEN}"
+      }
     }
   }
 }
